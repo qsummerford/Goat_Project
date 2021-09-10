@@ -1,0 +1,79 @@
+.body_image1 {
+  background-image: url(images/naruto_background.jpg);  
+  font-size: 20px;
+  background-attachment: fixed;
+}
+
+.body_image2 {
+  background-image: url(images/naruto_sage.jpg);
+  font-size: 20px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 1700px
+}
+
+.body_image3{
+  background-image: url(images/naruto_background5.jpg);
+  font-size: 20px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 1700px
+}
+
+.image_background{
+    padding: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.text_box {
+    width: 1000px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.header a:hover {
+  color: black;
+}
+
+.header a.active {
+  color: blue;
+}
+
+.header-right {
+  float: right;
+}
+
+.column {
+  float: left;
+  margin-left:
+}
+
+.column_right {
+  float: right;
+  margin-right: auto;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.center_text {
+  text-align: center;
+}
